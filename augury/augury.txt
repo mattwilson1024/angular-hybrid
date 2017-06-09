@@ -1,0 +1,9 @@
+This project is an example of a hybrid app that won't work with Augury.
+
+See https://github.com/rangle/augury/issues/680.
+
+See the screenshots for further information:
+
+augury-1.png - when the application is run, the Augury Chrome extension fails to identify any Angular components. Note that in this example, the root of the application is AngularJS, but there are Angular 4 components used within it.
+
+augury-2.png - Shows that ng.probe($0) does seem to work when selecting a specific element in Chrome dev tools.
