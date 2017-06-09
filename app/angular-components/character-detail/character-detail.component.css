@@ -1,0 +1,12 @@
+.character-box {
+  border: solid 1px grey;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+.character-box img {
+  max-width: 100px;
+  max-height: 100px;
+  text-align: center;
+}
