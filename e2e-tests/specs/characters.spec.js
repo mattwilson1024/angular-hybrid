@@ -8,12 +8,9 @@ describe('characters page', function () {
     page.get();
   });
 
-  it('should show a Characters title', function () {
+  it('should show a header and 5 characters', function () {
     expect(page.header.isDisplayed()).toBeTruthy();
     expect(page.header.getText()).toEqual('Characters');
-  });
-
-  it('should show 5 characters', function () {
     expect(page.characters.count()).toEqual(5);
   });
 
