@@ -13,4 +13,8 @@ describe('characters page', function () {
     expect(page.header.getText()).toEqual('Characters');
   });
 
+  it('should show 5 characters', function () {
+    expect(page.characters.count()).toEqual(5);
+  });
+
 });
