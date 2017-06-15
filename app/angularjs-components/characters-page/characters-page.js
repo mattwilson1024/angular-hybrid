@@ -8,4 +8,6 @@ angular.module('example.characterspage', ['ngRoute'])
   }])
   .controller('CharactersPageCtrl', ['$scope', function ($scope) {
 
+    $scope.firstEpisode = moment({ year: 1989, month: 11, day: 17 });
+
   }]);

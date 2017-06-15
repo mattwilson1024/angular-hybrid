@@ -2,6 +2,7 @@ import { CharactersNg1Module } from './angular-components/characters.ng1-module.
 
 angular.module('example', [
   'ngRoute',
+  'angularMoment',
   'example.characterspage',
   CharactersNg1Module
 ])

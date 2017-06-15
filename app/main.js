@@ -6,6 +6,9 @@ import 'babel-polyfill';
 require('script-loader!../node_modules/angular/angular.min.js');
 require('script-loader!../node_modules/angular-route/angular-route.min.js');
 
+require('script-loader!../node_modules/moment/moment.js');
+require('script-loader!../node_modules/angular-moment/angular-moment.js');
+
 // App Source
 require('./app');
 require('./angularjs-components/characters-page/characters-page');
